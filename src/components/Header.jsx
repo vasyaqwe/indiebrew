@@ -6,10 +6,10 @@ function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false)
 
     return (
-        <header class="primary-header | container">
-            <img src={logo} alt="Indie Brew Logo" class="logo" />
-
-            <button class="nav-toggle"><span class="sr-only">Menu</span></button>
+        <header className="primary-header | container">
+            <img src={logo} alt="Indie Brew Logo" className="logo" />
+            <Navbar open={isNavOpen} />
+            <button className="nav-toggle"><span className="sr-only">Menu</span></button>
         </header>
     )
 }

@@ -1,11 +1,13 @@
 import Hero from './Hero'
-import About from './About'
+import Resources from './Resources'
+import Access from './Access'
 
 function Main() {
     return (
         <>
             <Hero />
-            <About />
+            <Resources />
+            <Access />
         </>
     )
 }

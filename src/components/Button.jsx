@@ -1,9 +1,7 @@
 
 function Button() {
     return (
-        <a href="#" className="btn">
-            <strong className="fw-600">Get started</strong><span> &#8212; it's free</span>
-        </a>
+        <a href="#" className="btn"><strong className="fw-500">Get Started &#8212;</strong> it's free</a>
     )
 }
 
