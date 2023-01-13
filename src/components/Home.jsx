@@ -1,7 +1,7 @@
-import PrimaryHeader from './components/PrimaryHeader'
-import Main from './components/Main'
-import Footer from './components/Footer'
-import AnimatedShapes from './components/AnimatedShapes'
+import PrimaryHeader from './PrimaryHeader'
+import Main from './Main'
+import Footer from './Footer'
+import AnimatedShapes from './AnimatedShapes'
 
 function Home() {
     return (
