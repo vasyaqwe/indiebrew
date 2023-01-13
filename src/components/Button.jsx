@@ -1,11 +1,14 @@
 import { motion } from "framer-motion"
+import { Link } from 'react-router-dom'
 
 function Button({ text }) {
 
     return (
-        <motion.a whileTap={{ scale: 0.95, translateY: '2px' }} href="#" className="btn">
-            {text}
-        </motion.a>
+        <Link to="/signup">
+            <motion.a whileTap={{ scale: 0.95, translateY: '2px' }} className="btn">
+                {text}
+            </motion.a>
+        </Link>
     )
 }
 Button.defaultProps = {

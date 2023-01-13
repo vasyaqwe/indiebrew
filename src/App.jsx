@@ -1,20 +1,14 @@
-import { useState } from 'react'
 import './App.css'
-import PrimaryHeader from './components/PrimaryHeader'
-import Main from './components/Main'
-import Footer from './components/Footer'
-import AnimatedShapes from './components/AnimatedShapes'
+import Home from './components/Home'
 import SignUp from './components/SignUp'
+import { Switch, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <SignUp />
-    // <>
-    //   <AnimatedShapes />
-    //   <PrimaryHeader />
-    //   <Main />
-    //   <Footer />
-    // </>
+    <Switch>
+      <Route exact path='/'><Home /></Route>
+      <Route path='/signup'><SignUp /></Route>
+    </Switch>
   )
 }
 
