@@ -1,19 +1,20 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './components/Header'
+import PrimaryHeader from './components/PrimaryHeader'
 import Main from './components/Main'
 import Footer from './components/Footer'
 import AnimatedShapes from './components/AnimatedShapes'
-
+import SignUp from './components/SignUp'
 
 function App() {
   return (
-    <>
-      <AnimatedShapes />
-      <Header />
-      <Main />
-      <Footer />
-    </>
+    <SignUp />
+    // <>
+    //   <AnimatedShapes />
+    //   <PrimaryHeader />
+    //   <Main />
+    //   <Footer />
+    // </>
   )
 }
 

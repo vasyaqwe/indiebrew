@@ -1,8 +1,16 @@
+import { motion } from "framer-motion"
 
-function Button() {
+function Button({ text }) {
+
     return (
-        <a href="#" className="btn"><strong className="fw-500">Get Started &#8212;</strong> it's free</a>
+        <motion.a whileTap={{ scale: 0.95, translateY: '2px' }} href="#" className="btn">
+            {text}
+        </motion.a>
     )
 }
-
+Button.defaultProps = {
+    text: `<strong className="fw-500">
+                Get Started &#8212; </strong>
+            it's free`
+}
 export default Button

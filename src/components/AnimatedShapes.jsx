@@ -14,7 +14,7 @@ function AnimatedShapes() {
                 transition={{ duration: animationDuration, repeat: Infinity, repeatType: "reverse", delay: 2 }}
             />
             <motion.div className='animated-shape shape-3'
-                animate={{ x: [0, 100, 50], y: [0, 60, 150], scale: [1, 2, 1] }}
+                animate={{ x: [0, 50, 100], y: [0, 60, 150], scale: [1, 2, 1] }}
                 transition={{ duration: animationDuration, repeat: Infinity, repeatType: "reverse", delay: 3 }}
             />
         </div>

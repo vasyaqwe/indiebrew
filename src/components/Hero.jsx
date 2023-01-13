@@ -1,6 +1,7 @@
 import feedImg from '../assets/feed.png'
 import avatars from '../assets/avatars.svg'
 import Button from './Button'
+import AnimatedNumber from './AnimatedNumber'
 
 function Hero() {
 
@@ -12,9 +13,9 @@ function Hero() {
                     including Reddit, HackerNews, IndieHackers, and much more.</p>
                 <Button />
                 <img src={avatars} alt="a bunch of people's avatars" className="avatars" />
-                <p>Join <span className="text-accent">32,642</span> IndieBrewers in curating their personal digest.</p>
+                <p>Join <AnimatedNumber from={0} to={32642} /> IndieBrewers in curating their personal digest.</p>
             </div>
-            <img src={feedImg} alt="feed illustration" />
+            <img className='hero-img' src={feedImg} alt="feed illustration" />
         </section>
     )
 }

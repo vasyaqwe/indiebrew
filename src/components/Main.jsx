@@ -4,11 +4,11 @@ import Access from './Access'
 
 function Main() {
     return (
-        <>
+        <main>
             <Hero />
             <Resources />
             <Access />
-        </>
+        </main>
     )
 }
 
