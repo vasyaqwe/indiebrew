@@ -230,6 +230,14 @@ input[type=number] {
   }
 }
 
+
+
+@media(max-width: 25em) {
+  .mobile-only {
+    display: none;
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

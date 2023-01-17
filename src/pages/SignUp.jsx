@@ -62,29 +62,27 @@ function SignUp() {
                     </div>
                     <motion.div initial={{ x: 200, opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
-                        transition={{ duration: .5, ease: 'easeInOut' }}>
-                        <div className="sign-up-box flow" style={{ '--flow-space': '1.5rem' }}>
-                            <h2 className='fs-700'>Create your IndieBrew Account</h2>
-                            <div>
-                                <label className='fw-500' htmlFor="email">Email</label>
-                                <input className='input' type="email" placeholder='john@example.com' />
-                            </div>
-                            <div>
-                                <label className='fw-500' htmlFor="name">Full Name</label>
-                                <input className='input' type="name" placeholder='John Doe' />
-                            </div>
-                            <div>
-                                <label className='fw-500' htmlFor="password">Password</label>
-                                <input className='input' type="password" placeholder='At least 8 characters' />
-                            </div>
-                            <div className='flex-start'>
-                                <input className='checkbox' type="checkbox" id='terms' />
-                                <label htmlFor="terms" >
-                                    By creating an account on IndieBrew, you agree to the <a href="#" className="text-accent" style={{ textDecoration: 'underline' }}>Terms & Conditions</a>
-                                </label>
-                            </div>
-                            <Button className={'btn w-100'} text={"Create an account"} />
+                        transition={{ duration: .5, ease: 'easeInOut' }} className="sign-up-box flow" style={{ '--flow-space': '1.5rem' }}>
+                        <h2 className='fs-700'>Create your IndieBrew Account</h2>
+                        <div>
+                            <label className='fw-500' htmlFor="email">Email</label>
+                            <input className='input' type="email" placeholder='john@example.com' />
                         </div>
+                        <div>
+                            <label className='fw-500' htmlFor="name">Full Name</label>
+                            <input className='input' type="name" placeholder='John Doe' />
+                        </div>
+                        <div>
+                            <label className='fw-500' htmlFor="password">Password</label>
+                            <input className='input' type="password" placeholder='At least 8 characters' />
+                        </div>
+                        <div className='flex-start'>
+                            <input className='checkbox' type="checkbox" id='terms' />
+                            <label htmlFor="terms" >
+                                By creating an account on IndieBrew, you agree to the <a href="#" className="text-accent" style={{ textDecoration: 'underline' }}>Terms & Conditions</a>
+                            </label>
+                        </div>
+                        <Button className={'btn w-100'} text={"Create an account"} />
                     </motion.div>
                 </div>
             </main>

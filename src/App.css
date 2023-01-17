@@ -10,7 +10,6 @@
 
 .secondary-header-wrapper.container {
   position: relative;
-  width: min(95%, calc(70em + 3rem));
 }
 
 .secondary-header {
@@ -89,7 +88,7 @@
 }
 
 
-@media(min-width: 50em) {
+@media(min-width: 60em) {
   .socials {
     float: right;
     width: 70% !important;
@@ -124,7 +123,7 @@
   column-gap: 6rem;
 }
 
-@media(min-width: 50em) {
+@media(min-width: 60em) {
   .footer-container {
     flex-direction: row;
   }
@@ -138,32 +137,24 @@
   animation: bg-animation 15s linear infinite;
 }
 
-@media(min-width: 50em) and (max-width: 75em) {
-  .sign-up-page {
-    padding-left: 2em;
-  }
-}
-
 .sign-up-page .title {
-  margin-left: -1.5rem;
   margin-bottom: 1.5rem;
 }
 
-.sign-up-page-text {
-  width: min(80%, 500px);
-  margin-inline: auto;
-}
-
-@media(max-width: 50em) {
+@media(max-width: 60em) {
   .sign-up-page-text {
-    margin-top: 7rem;
+    margin-top: 10rem;
+    margin-inline: auto;
+  }
+
+  .sign-up-box {
+    margin-inline: auto;
   }
 }
 
 .sign-up-page .container {
-  width: min(95%, 70em);
   justify-content: space-between;
-  gap: min(7vw, 3rem);
+  gap: 2.5rem;
 }
 
 .sign-up-box .btn {
@@ -173,11 +164,25 @@
 }
 
 .sign-up-box {
-  max-width: min(93.5%, 550px);
-  margin-inline: auto;
+  max-width: 550px;
   border-radius: .35rem;
   background-color: #fff;
   padding: min(7vw, 3.5em);
+}
+
+@media(min-width: 60em) {
+  .sign-up-page .container {
+    margin-top: 3yrem;
+  }
+
+  .sign-up-page-text {
+    width: 40% !important;
+  }
+
+  .sign-up-box {
+    float: right;
+    width: 60% !important;
+  }
 }
 
 @keyframes bg-animation {
@@ -193,6 +198,7 @@
 .sign-up-list li {
   max-width: 450px;
   text-indent: -2.1rem;
+  margin-left: 1.5rem;
 }
 
 .sign-up-list li::before {
