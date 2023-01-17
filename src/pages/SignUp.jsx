@@ -1,5 +1,5 @@
-import Button from './Button'
-import SecondaryHeader from './SecondaryHeader'
+import Button from '../components/Button'
+import SecondaryHeader from '../components/SecondaryHeader'
 import { motion } from 'framer-motion'
 
 function SignUp() {
@@ -48,7 +48,7 @@ function SignUp() {
             <SecondaryHeader />
             <main className='sign-up-page'>
                 <div className="even-cols container">
-                    <div className='text'>
+                    <div className='sign-up-page-text'>
                         <motion.h1 initial={{ x: -200, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: .5, ease: 'easeInOut' }} className='title fs-800'>Create your personalized feed.</motion.h1>

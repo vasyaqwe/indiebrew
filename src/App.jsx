@@ -1,6 +1,6 @@
 import './App.css'
-import Home from './components/Home'
-import SignUp from './components/SignUp'
+import Home from './pages/Home'
+import SignUp from './pages/SignUp'
 import { Routes, Route } from 'react-router-dom'
 import { AnimatePresence } from "framer-motion"
 
