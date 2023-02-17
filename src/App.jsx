@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 import { AnimatePresence } from "framer-motion"
 
 function App() {
+
   return (
     <AnimatePresence>
       <Routes>

@@ -132,7 +132,7 @@
 /* sign up */
 .sign-up-page {
   min-height: 100vh;
-  background: linear-gradient(to right, #fcf5f9 0%, #efccf4 19%, #fad3ff 30%, #fad3ff 51%, #ffdafa 70%, #fcf5f9 100%);
+  background: var(--gradient-bg);
   background-size: 10000px 100%;
   animation: bg-animation 15s linear infinite;
 }
