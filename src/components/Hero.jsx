@@ -9,6 +9,7 @@ function Hero() {
     return (
         <section className="section hero | container even-cols">
             <motion.div initial={{ x: -200, opacity: 0 }}
+                viewport={{ once: true }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: .5, ease: 'easeInOut' }} className="section-text flow">
                 <h1 className="fs-900">Your weekly personal feed digest.</h1>
@@ -19,6 +20,7 @@ function Hero() {
                 <p>Join <AnimatedNumber from={0} to={32642} /> IndieBrewers in curating their personal digest.</p>
             </motion.div>
             <motion.img initial={{ x: 200, opacity: 0 }}
+                viewport={{ once: true }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: .5, ease: 'easeInOut' }}
                 className='hero-img' src={feedImg} alt="feed illustration" />

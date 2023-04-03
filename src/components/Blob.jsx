@@ -17,7 +17,7 @@ export default function Blob({ mousePosition }) {
         ease: 'linear',
         repeat: 0,
         type: 'spring',
-        stiffness: 80,
+        stiffness: 55,
     }
     return (
         <>
