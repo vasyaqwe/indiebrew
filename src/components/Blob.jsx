@@ -34,7 +34,7 @@ export default function Blob({ mousePosition }) {
                     },
                 }}
             >
-                <div className="blur"></div>
+                <div aria-hidden={"true"} className="blur"></div>
             </motion.div>
         </>
     )

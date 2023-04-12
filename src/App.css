@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 2;
 }
 
 .primary-header {
@@ -43,6 +44,7 @@
     background-color: #fff;
     transform-origin: top;
     box-shadow: 1px 1px 10px #a6a6a6;
+    z-index: 2;
   }
 
   .nav-list {
